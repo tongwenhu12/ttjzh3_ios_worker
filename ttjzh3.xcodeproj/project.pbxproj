@@ -7,15 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0954932999C7D500242176 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0954922999C7D500242176 /* Message.swift */; };
+		AB0954952999CB2700242176 /* selectJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0954942999CB2700242176 /* selectJobViewController.swift */; };
+		AB0954982999D7C600242176 /* MessageCell222.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0954962999D7C600242176 /* MessageCell222.swift */; };
+		AB0954992999D7C600242176 /* MessageCell222.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0954972999D7C600242176 /* MessageCell222.xib */; };
+		AB3808B329A2A40D000B2A96 /* showApplicantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3808B229A2A40D000B2A96 /* showApplicantsTableViewController.swift */; };
+		AB44E1D629B5892E00AB21D0 /* confirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44E1D529B5892E00AB21D0 /* confirmationViewController.swift */; };
+		AB49165E29F84D37004D487D /* deleteAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB49165D29F84D37004D487D /* deleteAccountViewController.swift */; };
+		AB4B41B7299D6E9100FF6144 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4B41B6299D6E9100FF6144 /* testViewController.swift */; };
+		AB50FDF62A30D59B000880E3 /* uploadPhotosViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB50FDF52A30D59B000880E3 /* uploadPhotosViewController2.swift */; };
+		AB602EB12A34B3F700E1357D /* 2023JuneTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB602EB02A34B3F700E1357D /* 2023JuneTestViewController.swift */; };
 		AB609F222998298C00703D70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB609F212998298B00703D70 /* AppDelegate.swift */; };
 		AB609F242998298C00703D70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB609F232998298C00703D70 /* SceneDelegate.swift */; };
 		AB609F262998298C00703D70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB609F252998298C00703D70 /* ViewController.swift */; };
 		AB609F292998298C00703D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB609F272998298C00703D70 /* Main.storyboard */; };
 		AB609F2B2998298C00703D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB609F2A2998298C00703D70 /* Assets.xcassets */; };
 		AB609F2E2998298C00703D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB609F2C2998298C00703D70 /* LaunchScreen.storyboard */; };
+		AB609F3729982EDB00703D70 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AB609F3629982EDB00703D70 /* FirebaseAnalytics */; };
+		AB609F3929982EDB00703D70 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AB609F3829982EDB00703D70 /* FirebaseAuth */; };
+		AB609F3B29982EDB00703D70 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = AB609F3A29982EDB00703D70 /* FirebaseDatabase */; };
+		AB609F3D29982EDB00703D70 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AB609F3C29982EDB00703D70 /* FirebaseFirestore */; };
+		AB609F3F29982EDB00703D70 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = AB609F3E29982EDB00703D70 /* FirebaseMessaging */; };
+		AB609F4129982EDB00703D70 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = AB609F4029982EDB00703D70 /* FirebaseRemoteConfig */; };
+		AB609F4329982EDB00703D70 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AB609F4229982EDB00703D70 /* FirebaseStorage */; };
+		AB609F452998319900703D70 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB609F442998319900703D70 /* registerViewController.swift */; };
+		AB609F47299831E400703D70 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB609F46299831E400703D70 /* loginViewController.swift */; };
+		AB609F492998320D00703D70 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB609F482998320D00703D70 /* profileViewController.swift */; };
+		AB609F4B2998324000703D70 /* jobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB609F4A2998324000703D70 /* jobsViewController.swift */; };
+		AB609F4D29985F7000703D70 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB609F4C29985F7000703D70 /* GoogleService-Info.plist */; };
+		AB6156E12A32614A000D0C85 /* previewProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6156E02A32614A000D0C85 /* previewProfileViewController.swift */; };
+		AB617E3D29F55FD300BDA311 /* keyboardTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB617E3C29F55FD300BDA311 /* keyboardTestViewController.swift */; };
+		AB6251F32AA7F6D6008B790A /* resetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6251F22AA7F6D6008B790A /* resetPasswordViewController.swift */; };
+		AB68E83329F4D56000CF20E6 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AB68E83229F4D56000CF20E6 /* IQKeyboardManagerSwift */; };
+		ABA60871299EF4010087E7FA /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = ABA60870299EF4010087E7FA /* Realm */; };
+		ABA60873299EF4010087E7FA /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ABA60872299EF4010087E7FA /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB0954922999C7D500242176 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		AB0954942999CB2700242176 /* selectJobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectJobViewController.swift; sourceTree = "<group>"; };
+		AB0954962999D7C600242176 /* MessageCell222.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell222.swift; sourceTree = "<group>"; };
+		AB0954972999D7C600242176 /* MessageCell222.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell222.xib; sourceTree = "<group>"; };
+		AB3808B229A2A40D000B2A96 /* showApplicantsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showApplicantsTableViewController.swift; sourceTree = "<group>"; };
+		AB3FFDBC29ED71E7007AB335 /* ttjzh3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ttjzh3.entitlements; sourceTree = "<group>"; };
+		AB3FFDBD29EE4441007AB335 /* ttjzh3Release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ttjzh3Release.entitlements; sourceTree = "<group>"; };
+		AB44E1D529B5892E00AB21D0 /* confirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmationViewController.swift; sourceTree = "<group>"; };
+		AB49165D29F84D37004D487D /* deleteAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteAccountViewController.swift; sourceTree = "<group>"; };
+		AB4B41B6299D6E9100FF6144 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		AB50FDF52A30D59B000880E3 /* uploadPhotosViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadPhotosViewController2.swift; sourceTree = "<group>"; };
+		AB602EB02A34B3F700E1357D /* 2023JuneTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2023JuneTestViewController.swift; sourceTree = "<group>"; };
 		AB609F1E2998298B00703D70 /* ttjzh3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ttjzh3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB609F212998298B00703D70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB609F232998298C00703D70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +64,14 @@
 		AB609F2A2998298C00703D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB609F2D2998298C00703D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB609F2F2998298C00703D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB609F442998319900703D70 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		AB609F46299831E400703D70 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		AB609F482998320D00703D70 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		AB609F4A2998324000703D70 /* jobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobsViewController.swift; sourceTree = "<group>"; };
+		AB609F4C29985F7000703D70 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AB6156E02A32614A000D0C85 /* previewProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = previewProfileViewController.swift; sourceTree = "<group>"; };
+		AB617E3C29F55FD300BDA311 /* keyboardTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardTestViewController.swift; sourceTree = "<group>"; };
+		AB6251F22AA7F6D6008B790A /* resetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resetPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +79,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB609F3B29982EDB00703D70 /* FirebaseDatabase in Frameworks */,
+				AB609F3D29982EDB00703D70 /* FirebaseFirestore in Frameworks */,
+				AB609F3F29982EDB00703D70 /* FirebaseMessaging in Frameworks */,
+				ABA60873299EF4010087E7FA /* RealmSwift in Frameworks */,
+				AB609F4129982EDB00703D70 /* FirebaseRemoteConfig in Frameworks */,
+				AB68E83329F4D56000CF20E6 /* IQKeyboardManagerSwift in Frameworks */,
+				AB609F4329982EDB00703D70 /* FirebaseStorage in Frameworks */,
+				AB609F3729982EDB00703D70 /* FirebaseAnalytics in Frameworks */,
+				ABA60871299EF4010087E7FA /* Realm in Frameworks */,
+				AB609F3929982EDB00703D70 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,13 +114,33 @@
 		AB609F202998298B00703D70 /* ttjzh3 */ = {
 			isa = PBXGroup;
 			children = (
+				AB3FFDBD29EE4441007AB335 /* ttjzh3Release.entitlements */,
+				AB3FFDBC29ED71E7007AB335 /* ttjzh3.entitlements */,
 				AB609F212998298B00703D70 /* AppDelegate.swift */,
 				AB609F232998298C00703D70 /* SceneDelegate.swift */,
 				AB609F252998298C00703D70 /* ViewController.swift */,
 				AB609F272998298C00703D70 /* Main.storyboard */,
 				AB609F2A2998298C00703D70 /* Assets.xcassets */,
 				AB609F2C2998298C00703D70 /* LaunchScreen.storyboard */,
+				AB609F4C29985F7000703D70 /* GoogleService-Info.plist */,
 				AB609F2F2998298C00703D70 /* Info.plist */,
+				AB609F442998319900703D70 /* registerViewController.swift */,
+				AB609F46299831E400703D70 /* loginViewController.swift */,
+				AB609F482998320D00703D70 /* profileViewController.swift */,
+				AB609F4A2998324000703D70 /* jobsViewController.swift */,
+				AB0954942999CB2700242176 /* selectJobViewController.swift */,
+				AB0954922999C7D500242176 /* Message.swift */,
+				AB0954962999D7C600242176 /* MessageCell222.swift */,
+				AB0954972999D7C600242176 /* MessageCell222.xib */,
+				AB4B41B6299D6E9100FF6144 /* testViewController.swift */,
+				AB3808B229A2A40D000B2A96 /* showApplicantsTableViewController.swift */,
+				AB44E1D529B5892E00AB21D0 /* confirmationViewController.swift */,
+				AB617E3C29F55FD300BDA311 /* keyboardTestViewController.swift */,
+				AB49165D29F84D37004D487D /* deleteAccountViewController.swift */,
+				AB50FDF52A30D59B000880E3 /* uploadPhotosViewController2.swift */,
+				AB6156E02A32614A000D0C85 /* previewProfileViewController.swift */,
+				AB602EB02A34B3F700E1357D /* 2023JuneTestViewController.swift */,
+				AB6251F22AA7F6D6008B790A /* resetPasswordViewController.swift */,
 			);
 			path = ttjzh3;
 			sourceTree = "<group>";
@@ -83,6 +161,18 @@
 			dependencies = (
 			);
 			name = ttjzh3;
+			packageProductDependencies = (
+				AB609F3629982EDB00703D70 /* FirebaseAnalytics */,
+				AB609F3829982EDB00703D70 /* FirebaseAuth */,
+				AB609F3A29982EDB00703D70 /* FirebaseDatabase */,
+				AB609F3C29982EDB00703D70 /* FirebaseFirestore */,
+				AB609F3E29982EDB00703D70 /* FirebaseMessaging */,
+				AB609F4029982EDB00703D70 /* FirebaseRemoteConfig */,
+				AB609F4229982EDB00703D70 /* FirebaseStorage */,
+				ABA60870299EF4010087E7FA /* Realm */,
+				ABA60872299EF4010087E7FA /* RealmSwift */,
+				AB68E83229F4D56000CF20E6 /* IQKeyboardManagerSwift */,
+			);
 			productName = ttjzh3;
 			productReference = AB609F1E2998298B00703D70 /* ttjzh3.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +201,11 @@
 				Base,
 			);
 			mainGroup = AB609F152998298B00703D70;
+			packageReferences = (
+				AB609F3529982EDB00703D70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				ABA6086F299EF4010087E7FA /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				AB68E83129F4D56000CF20E6 /* XCRemoteSwiftPackageReference "iqkeyboardmanager" */,
+			);
 			productRefGroup = AB609F1F2998298B00703D70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +221,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB609F2E2998298C00703D70 /* LaunchScreen.storyboard in Resources */,
+				AB609F4D29985F7000703D70 /* GoogleService-Info.plist in Resources */,
+				AB0954992999D7C600242176 /* MessageCell222.xib in Resources */,
 				AB609F2B2998298C00703D70 /* Assets.xcassets in Resources */,
 				AB609F292998298C00703D70 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +235,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB50FDF62A30D59B000880E3 /* uploadPhotosViewController2.swift in Sources */,
+				AB0954982999D7C600242176 /* MessageCell222.swift in Sources */,
+				AB6251F32AA7F6D6008B790A /* resetPasswordViewController.swift in Sources */,
+				AB609F4B2998324000703D70 /* jobsViewController.swift in Sources */,
+				AB0954952999CB2700242176 /* selectJobViewController.swift in Sources */,
+				AB4B41B7299D6E9100FF6144 /* testViewController.swift in Sources */,
 				AB609F262998298C00703D70 /* ViewController.swift in Sources */,
+				AB602EB12A34B3F700E1357D /* 2023JuneTestViewController.swift in Sources */,
 				AB609F222998298C00703D70 /* AppDelegate.swift in Sources */,
+				AB6156E12A32614A000D0C85 /* previewProfileViewController.swift in Sources */,
+				AB609F492998320D00703D70 /* profileViewController.swift in Sources */,
+				AB44E1D629B5892E00AB21D0 /* confirmationViewController.swift in Sources */,
+				AB617E3D29F55FD300BDA311 /* keyboardTestViewController.swift in Sources */,
 				AB609F242998298C00703D70 /* SceneDelegate.swift in Sources */,
+				AB0954932999C7D500242176 /* Message.swift in Sources */,
+				AB49165E29F84D37004D487D /* deleteAccountViewController.swift in Sources */,
+				AB609F452998319900703D70 /* registerViewController.swift in Sources */,
+				AB609F47299831E400703D70 /* loginViewController.swift in Sources */,
+				AB3808B329A2A40D000B2A96 /* showApplicantsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,21 +400,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ttjzh3/ttjzh3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H8YNWJUC5Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ttjzh3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "天天家政 - 员工版";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.torontojiazheng.ttjzh3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -315,21 +430,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ttjzh3/ttjzh3Release.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H8YNWJUC5Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ttjzh3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "天天家政 - 员工版";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.torontojiazheng.ttjzh3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -360,6 +477,86 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB609F3529982EDB00703D70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		AB68E83129F4D56000CF20E6 /* XCRemoteSwiftPackageReference "iqkeyboardmanager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/iqkeyboardmanager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+		ABA6086F299EF4010087E7FA /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB609F3629982EDB00703D70 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB609F3529982EDB00703D70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		AB609F3829982EDB00703D70 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB609F3529982EDB00703D70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AB609F3A29982EDB00703D70 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB609F3529982EDB00703D70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		AB609F3C29982EDB00703D70 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB609F3529982EDB00703D70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AB609F3E29982EDB00703D70 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB609F3529982EDB00703D70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		AB609F4029982EDB00703D70 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB609F3529982EDB00703D70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		AB609F4229982EDB00703D70 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB609F3529982EDB00703D70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		AB68E83229F4D56000CF20E6 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB68E83129F4D56000CF20E6 /* XCRemoteSwiftPackageReference "iqkeyboardmanager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		ABA60870299EF4010087E7FA /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABA6086F299EF4010087E7FA /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		ABA60872299EF4010087E7FA /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABA6086F299EF4010087E7FA /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AB609F162998298B00703D70 /* Project object */;
 }
