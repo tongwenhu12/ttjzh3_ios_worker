@@ -118,13 +118,13 @@ class confirmationViewController: UIViewController {
 
         // Create a dictionary representing the map (key-value pairs)
         let mapData: [String: Any] = [
-            "subject": "天天家政新保姆应聘",
+            "subject": "*天天家政新保姆应聘*",
             "text": "您好，有新的保姆应聘。请打开天天家政APP查看详细内容。谢谢。"
         ]
 
         // Create a dictionary with the string and map
         let data: [String: Any] = [
-            "to": "天天家政新保姆应聘",
+            "to": self.xxx!,
             "message": mapData
         ]
 
